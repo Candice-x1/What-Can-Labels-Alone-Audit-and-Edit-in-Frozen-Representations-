@@ -18,7 +18,6 @@ This repository contains the code for the paper
 | `build_civilcomments_LLM_decoder_cache.py` | Build CivilComments caches with decoder-only LLMs (last non-padding token hidden state, e.g. Qwen2.5-1.5B). |
 | `run_rebuttal_build_waterbirds_vlm_cache.py` | Cache frozen image features for larger vision backbones (OpenCLIP ViT-L/14). |
 | `run_labelonly_rebuttal_frozen_exp2.ps1` | End-to-end CivilComments pipeline launcher (core 10-seed runs). |
-| `summarize_rebuttal_results.py` | Aggregate `all_rebuttal_records.csv` files into compact summary tables. |
 
 ## Environment
 Python >= 3.10
